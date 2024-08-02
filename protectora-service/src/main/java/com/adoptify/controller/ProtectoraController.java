@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/protectora")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://c19-42-n-java-react.vercel.app", allowCredentials = "true")
 public class ProtectoraController {
 
     @Autowired

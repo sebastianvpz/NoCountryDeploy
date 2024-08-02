@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/auth")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://c19-42-n-java-react.vercel.app", allowCredentials = "true")
 public class AuthController {
 
     @Autowired

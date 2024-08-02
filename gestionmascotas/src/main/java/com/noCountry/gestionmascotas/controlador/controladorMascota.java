@@ -18,7 +18,7 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/mascota")
-@CrossOrigin(origins = "http://localhost:4200", allowCredentials = "true")
+@CrossOrigin(origins = "https://c19-42-n-java-react.vercel.app", allowCredentials = "true")
 public class controladorMascota {
 
     @Autowired
